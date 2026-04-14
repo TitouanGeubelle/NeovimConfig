@@ -5,10 +5,13 @@ return {
             sources = {
                 files = {
                     hidden = true,
+                    ignored = true,
                 },
                 explorer = {
                     auto_close = true,
                     jump = { close = true },
+                    hidden = true,
+                    ignored = true,
                     --region    dotnet_templates
                     --[[
                     win = {
